@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="40.556">
+    <testcase classname="Home Page Feature" name="Home page title" time="15.841">
+        <system-out><![CDATA[Given user is already on login page.........................................passed
+And user logins to application..............................................passed
+Given user is in Home Page..................................................passed
+Then user gets inventory names..............................................passed
+And section should be 6.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Page Feature" name="Login page title" time="12.082">
+        <system-out><![CDATA[Given user is on login page.................................................passed
+When user gets title of the page............................................passed
+Then page title should be "Swag Labs".......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Page Feature" name="Login with credentials" time="12.292">
+        <system-out><![CDATA[Given user is on login page.................................................passed
+When user enters username "standard_user"...................................passed
+And user enters password "secret_sauce".....................................passed
+And user clicks login button................................................passed
+Then page title should be "Swag Labs".......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
